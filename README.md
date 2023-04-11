@@ -20,7 +20,7 @@ moviepy.editor是一個Python庫，用於編輯和創建影片。它提供了許
 clip.write_gif()用於將 Video 轉換為 GIF,用法如下：  
 clip.write_gif(filename, fps=None, program='imageio', opt='nq', fuzz=1, loop=0, dispose=True)  
 
-其中： 
+其中：  
 filename：轉換後的 GIF 文件名稱 (包括路徑)   
 fps：GIF 文件的幀率，預設值為 None (由 clip 的 duration 自動計算)   
 program：指定轉換的工具，預設值為'imageio'，也可以選擇'ffmpeg' 
